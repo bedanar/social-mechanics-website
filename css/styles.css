@@ -565,6 +565,40 @@ form {
     cursor: default;
     opacity: 0;
 }
+.media{
+    margin-top: 40px;
+}
+.media-list{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.media-list-item{
+    background-color: #fff;
+    padding: 0 20px 20px 20px;
+    border: #141B21 0.5px solid;
+    width: 350px;
+    margin-top: 20px;
+}
+.media-list-item button{
+    margin: 0;
+    border: #141B21 0.5px solid;
+    background-color: #fff;
+    color: #141B21;
+    padding: 15px 36px;
+    cursor: pointer;
+    align-items: center;
+    transition: .3s;
+}
+.media-list-item button a{
+    color: #141B21;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+}
 
 /*WebKit ScrollBar*/
 
@@ -700,6 +734,14 @@ form {
 
     .video {
         flex-direction: column;
+    }
+    .media-list{
+        justify-content: center;
+        align-items: center;
+    }
+    .media-list-item{
+        width: 250px;
+        align-items: center;
     }
 
     .nav__item {
