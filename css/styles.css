@@ -719,10 +719,11 @@ form {
 @media (max-width: 320px) {
     h1 {
         font-size: 28px;
+        line-height: 40px;
     }
 
     .hero {
-        min-width: 280px;
+        min-width: 320px;
         padding-left: 20px;
         width: 50%;
     }
