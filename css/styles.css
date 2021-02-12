@@ -853,4 +853,7 @@ form {
     .input {
         margin-bottom: 20px;
     }
+    .media-list-item{
+        width: 300px;
+    }
 }
