@@ -45,7 +45,7 @@ h1 {
     font-weight: 800;
     line-height: 77px;
     letter-spacing: 0em;
-    color: #EFF1E6;
+    color: #141B21;
 }
 
 h2 {
@@ -81,7 +81,7 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0em;
     padding: 0;
-    color: #EFF1E6;
+    color: #141B21;
 }
 
 ul {
@@ -107,26 +107,29 @@ ul {
 }
 
 .hero {
-    background: -webkit-linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), -webkit-linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, -webkit-radial-gradient(at 50% 0, #484847, #090909);
+    /* background: -webkit-linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), -webkit-linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, -webkit-radial-gradient(at 50% 0, #484847, #090909);
     background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
-    background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
+    background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%; */
     padding: 50px;
     width: 55%;
+    background: #EFF1E6;
 }
 
 .hero-btn {
     border: 2px solid #dde2e7;
     color: #EFF1E6;
-    background-color: rgba(0, 125, 215, 0.3);
+    background-color: rgba(0, 125, 215, 1);
     padding: 17px 35px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .hero-btn:hover {
-    background-color: rgba(1, 94, 161, 0.836);
+    border: rgba(0, 125, 215, 1) 1px solid;
+    color: rgba(0, 125, 215, 1);
     cursor: pointer;
     transition: .3s;
+    background: white;
 }
 
 
@@ -151,7 +154,7 @@ ul {
 .nav__item {
     margin-right: 10px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
     transition: all 0.6s;
 }
@@ -468,7 +471,9 @@ ul {
     text-align: center;
     margin-top: 20px;
 }
-
+.help{
+    margin-top: 50px;
+}
 form {
     align-items: center;
     width: 80%;
@@ -713,11 +718,11 @@ form {
 
 @media (max-width: 320px) {
     h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .hero {
-        min-width: 320px;
+        min-width: 280px;
         padding-left: 20px;
         width: 50%;
     }
